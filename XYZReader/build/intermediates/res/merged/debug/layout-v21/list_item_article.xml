@@ -16,7 +16,6 @@
 
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
-            android:transitionName="@string/mainpic_trans_name"
             android:id="@+id/thumbnail"
             android:layout_width="100dp"
             android:layout_height="100dp"

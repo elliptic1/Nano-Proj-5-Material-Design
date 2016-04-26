@@ -48,12 +48,12 @@
         "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
-        "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_menu_item_action_area.xml"
-    },
-    {
         "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
         "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",

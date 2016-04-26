@@ -2,9 +2,9 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    density="560dpi"
+    density="xxhdpi"
     format="7"
-    timestamp="99182870305524" >
+    timestamp="114708487815874" >
 
     <task
         name="javac"
@@ -20,23 +20,88 @@
         duration="0" />
 
     <artifact
-        location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-        type="DEX" />
+        location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="98040926765810" >
+    <build timestamp="106823553208563" >
         <artifact
             location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/outputs/apk/XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="99034394162235" >
+    <build
+        timestamp="107907915477302"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/107907915477302/classes.dex"
+            type="RELOAD_DEX" />
     </build>
-    <build timestamp="99182870305524" >
+    <build
+        timestamp="108601520492872"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/108601520492872/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="108740026231094"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/108740026231094/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="108838758230624"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/108838758230624/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="108982618919671"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/108982618919671/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="110443612350401"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/110443612350401/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="110603837807066"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/110603837807066/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="110812805614088"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/110812805614088/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="114477669840840"
+        verifier="FIELD_ADDED" >
         <artifact
             location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="114651825915023"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/builds/debug/114651825915023/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build timestamp="114708487815874" >
+        <artifact
+            location="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>
