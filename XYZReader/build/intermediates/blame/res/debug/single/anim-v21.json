@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/anim-v21/fab_state_list_anim.xml",
+        "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/src/main/res/anim-v21/fab_state_list_anim.xml"
+    },
+    {
+        "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]
