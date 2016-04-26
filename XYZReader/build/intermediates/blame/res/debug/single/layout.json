@@ -72,10 +72,6 @@
         "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
-        "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/layout/abc_simple_dropdown_hint.xml"
-    },
-    {
         "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_template_lines.xml"
     },

@@ -8,10 +8,6 @@
         "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
         "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
         "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_secondary_text_material_dark.xml"
     },
@@ -38,9 +34,5 @@
     {
         "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
         "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color/abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]
