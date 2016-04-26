@@ -2,123 +2,123 @@
 <items version="2" >
 
     <item
-        jar="/home/todd/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
         jumboMode="true"
-        revision="22.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_08cb10d456ddd5d3c01b8afd2dacd574fcbde674/classes.dex" />
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_81b4ba92c1a0afcc95fbeade3590f8cc68721bdd/classes.dex" />
     </item>
     <item
-        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
         jumboMode="true"
-        revision="22.0.1"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_685cfd80d4c868b6e4cdd5e758818f43aed34bd5/classes.dex" />
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_1b4089c915614ffbf36de2c1fab8f6aecaf8f41f/classes.dex" />
     </item>
     <item
-        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jar="/home/todd/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
         jumboMode="true"
-        revision="22.0.1"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_31489f1d576e19b4d0f5ae891422ceb1da0d7bfc/classes.dex" />
-    </item>
-    <item
-        jar="/home/todd/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
-        jumboMode="true"
-        revision="22.0.1"
-        sha1="7052283359001bb108753cb0583a887d3bf94c82">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.1.2_f2ea9398c705ee6a0e735caef3d25187a8299439/classes.dex" />
-    </item>
-    <item
-        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/libs/volley.jar"
-        jumboMode="true"
-        revision="22.0.1"
-        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/2/volley_12c1ffd9c8d810b0f69bdee65bc417f6a7d25288/classes.dex" />
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_46e5fcb0aefe5bae6a6efbd5499500d28e86d56c/classes.dex" />
     </item>
     <item
         jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
         jumboMode="true"
-        revision="22.0.1"
+        revision="23.0.3"
         sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
         <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_e910676f15f63a3b448509729bfa512390d749b9/classes.dex" />
     </item>
     <item
+        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/libs/volley.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/2/volley_12c1ffd9c8d810b0f69bdee65bc417f6a7d25288/classes.dex" />
+    </item>
+    <item
         jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
         jumboMode="true"
-        revision="22.0.1"
+        revision="23.0.3"
         sha1="debf30ce0a7560396b6235edef77e447006454c2">
         <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_cbb67962575a14b6a9c5f29cad62a166dad27fd2/classes.dex" />
     </item>
     <item
         jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
         jumboMode="true"
-        revision="22.0.1"
+        revision="23.0.3"
         sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
         <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_0e5a8daebf7722fb952c3292b3eba5276e510893/classes.dex" />
     </item>
     <item
-        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
-        revision="22.0.1"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_81b4ba92c1a0afcc95fbeade3590f8cc68721bdd/classes.dex" />
+        revision="23.0.3"
+        sha1="6b20d0a74267144ee0ab503235450d13d4fa19c6">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_35fd61fd3b65024ac6edc1344bc7355dba662331/classes.dex" />
+    </item>
+    <item
+        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_31489f1d576e19b4d0f5ae891422ceb1da0d7bfc/classes.dex" />
+    </item>
+    <item
+        jar="/home/todd/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_08cb10d456ddd5d3c01b8afd2dacd574fcbde674/classes.dex" />
     </item>
     <item
         jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
-        revision="22.0.1"
-        sha1="f5da4d6ec981d6f09521454cab04778298fb3053">
+        revision="23.0.3"
+        sha1="2dcb8aa7e3cd395788138f05466c650c73f4c3e7">
         <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f5abd9cbaf520f1e09faebee3c2440399012c581/classes.dex" />
     </item>
     <item
-        jar="/home/todd/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
         jumboMode="true"
-        revision="22.0.1"
-        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_46e5fcb0aefe5bae6a6efbd5499500d28e86d56c/classes.dex" />
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_685cfd80d4c868b6e4cdd5e758818f43aed34bd5/classes.dex" />
     </item>
     <item
-        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.3.0/jars/classes.jar"
+        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/23.3.0/jars/classes.jar"
         jumboMode="true"
-        revision="22.0.1"
-        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.3.0_1b4089c915614ffbf36de2c1fab8f6aecaf8f41f/classes.dex" />
+        revision="23.0.3"
+        sha1="d41792854b7fb173e61c2bfea5044fd47df76114">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-23.3.0_e6a130c687cb2b26b425cce4024e5d70af244b27/classes.dex" />
     </item>
     <item
         jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/libs/internal_impl-23.3.0.jar"
         jumboMode="true"
-        revision="22.0.1"
+        revision="23.0.3"
         sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
         <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_87ada4a8c3658f6422616d0d83984cec82d99086/classes.dex" />
     </item>
     <item
         jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
         jumboMode="true"
-        revision="22.0.1"
+        revision="23.0.3"
         sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
         <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_1e7d0736f8f8e613de067b661dd9c3623eb578d3/classes.dex" />
     </item>
     <item
+        jar="/home/todd/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.1.2_f2ea9398c705ee6a0e735caef3d25187a8299439/classes.dex" />
+    </item>
+    <item
         jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/23.3.0/jars/classes.jar"
         jumboMode="true"
-        revision="22.0.1"
+        revision="23.0.3"
         sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
         <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v13-23.3.0_98157e3842a89cb05962824f460a7a9e748e44d7/classes.dex" />
-    </item>
-    <item
-        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/23.3.0/jars/classes.jar"
-        jumboMode="true"
-        revision="22.0.1"
-        sha1="d41792854b7fb173e61c2bfea5044fd47df76114">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-23.3.0_e6a130c687cb2b26b425cce4024e5d70af244b27/classes.dex" />
-    </item>
-    <item
-        jar="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="22.0.1"
-        sha1="aa00a3cc8cdd90d4ab26ffbd5d7497cc2ec7341c">
-        <dex dex="/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_35fd61fd3b65024ac6edc1344bc7355dba662331/classes.dex" />
     </item>
 
 </items>
