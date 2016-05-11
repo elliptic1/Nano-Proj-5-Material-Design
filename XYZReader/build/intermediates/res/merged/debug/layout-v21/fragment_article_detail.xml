@@ -23,11 +23,10 @@
                 android:background="@color/photo_placeholder">
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
-                    android:transitionName="@string/mainpic_trans_name"
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
                     android:scaleType="centerCrop"
-                    android:layout_height="112dp"
+                    android:layout_height="320dp"
                      />
 
             </FrameLayout>

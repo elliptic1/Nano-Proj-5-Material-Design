@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="mainpic_trans_name">mainpic</string>
+    <string name="transition_name_mainpic" translatable="false">mainpic</string>
+    <string name="transition_name_title" translatable="false">title</string>
 </resources>

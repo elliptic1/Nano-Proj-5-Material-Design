@@ -2657,17 +2657,18 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f060010;
         public static final int abc_shareactionprovider_share_with_application=0x7f060011;
         public static final int abc_toolbar_collapse_description=0x7f060012;
-        public static final int action_refresh=0x7f060015;
-        public static final int action_settings=0x7f060016;
-        public static final int action_share=0x7f060017;
-        public static final int app_name=0x7f060018;
-        public static final int appbar_scrolling_view_behavior=0x7f060019;
-        public static final int bottom_sheet_behavior=0x7f06001a;
-        public static final int character_counter_pattern=0x7f06001b;
-        public static final int mainpic_trans_name=0x7f060014;
+        public static final int action_refresh=0x7f060016;
+        public static final int action_settings=0x7f060017;
+        public static final int action_share=0x7f060018;
+        public static final int app_name=0x7f060019;
+        public static final int appbar_scrolling_view_behavior=0x7f06001a;
+        public static final int bottom_sheet_behavior=0x7f06001b;
+        public static final int character_counter_pattern=0x7f06001c;
         public static final int status_bar_notification_info_overflow=0x7f060013;
-        public static final int up=0x7f06001c;
-        public static final int welcome_xyz_reader=0x7f06001d;
+        public static final int transition_name_mainpic=0x7f060014;
+        public static final int transition_name_title=0x7f060015;
+        public static final int up=0x7f06001d;
+        public static final int welcome_xyz_reader=0x7f06001e;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09008a;

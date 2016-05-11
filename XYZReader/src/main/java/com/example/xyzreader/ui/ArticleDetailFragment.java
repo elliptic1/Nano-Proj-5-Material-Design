@@ -17,6 +17,7 @@ import android.support.v7.graphics.Palette;
 import android.text.Html;
 import android.text.format.DateUtils;
 import android.text.method.LinkMovementMethod;
+import android.transition.TransitionManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -63,6 +64,10 @@ public class ArticleDetailFragment extends Fragment implements
      * fragment (e.g. upon screen orientation changes).
      */
     public ArticleDetailFragment() {
+    }
+
+    public ImageView getmPhotoView() {
+        return mPhotoView;
     }
 
     public static ArticleDetailFragment newInstance(long itemId, int pos) {
@@ -150,6 +155,18 @@ public class ArticleDetailFragment extends Fragment implements
         return mRootView;
     }
 
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            View photoView = mRootView.findViewById(R.id.photo);
+            String name = getString(R.string.transition_name_mainpic)+mItemPos;
+            photoView.setTransitionName(name);
+        }
+
+    }
+
     private void updateStatusBar() {
         int color = 0;
         if (mPhotoView != null && mTopInset != 0 && mScrollY > 0) {
@@ -189,11 +206,6 @@ public class ArticleDetailFragment extends Fragment implements
         bylineView.setMovementMethod(new LinkMovementMethod());
         TextView bodyView = (TextView) mRootView.findViewById(R.id.article_body);
         bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            View photoView = mRootView.findViewById(R.id.photo);
-            photoView.setTransitionName(getString(R.string.mainpic_trans_name)+mItemPos);
-        }
 
         if (mCursor != null) {
             mRootView.setAlpha(0);
