@@ -243,14 +243,12 @@
     <style name="Platform.ThemeOverlay.AppCompat.Dark"/>
     <style name="Platform.ThemeOverlay.AppCompat.Light"/>
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <!-- enable window content transitions -->
-        <item name="android:windowContentTransitions">true</item>
-
         <!-- enable overlapping of exiting and entering activities-->
-        <item name="android:windowAllowEnterTransitionOverlap">true</item>
-        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <!--<item name="android:windowAllowEnterTransitionOverlap">true</item>-->
+        <!--<item name="android:windowAllowReturnTransitionOverlap">true</item>-->
     </style>
     <style name="Theme.Bacon.Detail" parent="Theme.Bacon">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
     </style>
 </resources>

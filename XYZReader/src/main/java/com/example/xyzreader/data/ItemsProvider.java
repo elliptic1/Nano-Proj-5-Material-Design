@@ -11,6 +11,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
+import android.util.Log;
+
+import com.example.xyzreader.ui.ArticleListActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +29,8 @@ public class ItemsProvider extends ContentProvider {
 	private static final int ITEMS__ID = 1;
 
 	private static final UriMatcher sUriMatcher = buildUriMatcher();
+
+    public static String TAG = ArticleListActivity.TAG + "-itemsProvider";
 
 	private static UriMatcher buildUriMatcher() {
 		final UriMatcher matcher = new UriMatcher(UriMatcher.NO_MATCH);
@@ -58,6 +63,7 @@ public class ItemsProvider extends ContentProvider {
 	public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
 		final SQLiteDatabase db = mOpenHelper.getReadableDatabase();
 		final SelectionBuilder builder = buildSelection(uri);
+		Log.d(TAG, "query uri " + uri);
 		Cursor cursor = builder.where(selection, selectionArgs).query(db, projection, sortOrder);
         if (cursor != null) {
             cursor.setNotificationUri(getContext().getContentResolver(), uri);

@@ -9955,7 +9955,7 @@
                     "startOffset": 124355,
                     "endLine": 1571,
                     "endColumn": 12,
-                    "endOffset": 124402
+                    "endOffset": 124423
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/src/main/res/values/styles.xml",
@@ -9965,7 +9965,7 @@
                         "startOffset": 802,
                         "endLine": 25,
                         "endColumn": 12,
-                        "endOffset": 849
+                        "endOffset": 870
                     }
                 }
             },
@@ -9973,10 +9973,10 @@
                 "to": {
                     "startLine": 1572,
                     "startColumn": 4,
-                    "startOffset": 124407,
+                    "startOffset": 124428,
                     "endLine": 1574,
                     "endColumn": 12,
-                    "endOffset": 124556
+                    "endOffset": 124577
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -9994,10 +9994,10 @@
                 "to": {
                     "startLine": 1575,
                     "startColumn": 4,
-                    "startOffset": 124561,
+                    "startOffset": 124582,
                     "endLine": 1579,
                     "endColumn": 12,
-                    "endOffset": 124914
+                    "endOffset": 124935
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -10015,10 +10015,10 @@
                 "to": {
                     "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 124919,
+                    "startOffset": 124940,
                     "endLine": 1582,
                     "endColumn": 12,
-                    "endOffset": 125081
+                    "endOffset": 125102
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -10036,10 +10036,10 @@
                 "to": {
                     "startLine": 1583,
                     "startColumn": 4,
-                    "startOffset": 125086,
+                    "startOffset": 125107,
                     "endLine": 1587,
                     "endColumn": 12,
-                    "endOffset": 125451
+                    "endOffset": 125472
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -10057,10 +10057,10 @@
                 "to": {
                     "startLine": 1588,
                     "startColumn": 4,
-                    "startOffset": 125456,
+                    "startOffset": 125477,
                     "endLine": 1591,
                     "endColumn": 12,
-                    "endOffset": 125611
+                    "endOffset": 125632
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -10078,10 +10078,10 @@
                 "to": {
                     "startLine": 1592,
                     "startColumn": 4,
-                    "startOffset": 125616,
+                    "startOffset": 125637,
                     "endLine": 1595,
                     "endColumn": 12,
-                    "endOffset": 125765
+                    "endOffset": 125786
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -10099,9 +10099,9 @@
                 "to": {
                     "startLine": 1596,
                     "startColumn": 4,
-                    "startOffset": 125770,
+                    "startOffset": 125791,
                     "endColumn": 79,
-                    "endOffset": 125845
+                    "endOffset": 125866
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10118,9 +10118,9 @@
                 "to": {
                     "startLine": 1597,
                     "startColumn": 4,
-                    "startOffset": 125850,
+                    "startOffset": 125871,
                     "endColumn": 99,
-                    "endOffset": 125945
+                    "endOffset": 125966
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10137,9 +10137,9 @@
                 "to": {
                     "startLine": 1598,
                     "startColumn": 4,
-                    "startOffset": 125950,
+                    "startOffset": 125971,
                     "endColumn": 89,
-                    "endOffset": 126035
+                    "endOffset": 126056
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10156,9 +10156,9 @@
                 "to": {
                     "startLine": 1599,
                     "startColumn": 4,
-                    "startOffset": 126040,
+                    "startOffset": 126061,
                     "endColumn": 109,
-                    "endOffset": 126145
+                    "endOffset": 126166
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10175,9 +10175,9 @@
                 "to": {
                     "startLine": 1600,
                     "startColumn": 4,
-                    "startOffset": 126150,
+                    "startOffset": 126171,
                     "endColumn": 91,
-                    "endOffset": 126237
+                    "endOffset": 126258
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10194,10 +10194,10 @@
                 "to": {
                     "startLine": 1601,
                     "startColumn": 4,
-                    "startOffset": 126242,
+                    "startOffset": 126263,
                     "endLine": 1602,
                     "endColumn": 12,
-                    "endOffset": 126337
+                    "endOffset": 126358
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10215,10 +10215,10 @@
                 "to": {
                     "startLine": 1603,
                     "startColumn": 4,
-                    "startOffset": 126342,
+                    "startOffset": 126363,
                     "endLine": 1604,
                     "endColumn": 12,
-                    "endOffset": 126449
+                    "endOffset": 126470
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10236,10 +10236,10 @@
                 "to": {
                     "startLine": 1605,
                     "startColumn": 4,
-                    "startOffset": 126454,
+                    "startOffset": 126475,
                     "endLine": 1606,
                     "endColumn": 12,
-                    "endOffset": 126563
+                    "endOffset": 126584
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10257,10 +10257,10 @@
                 "to": {
                     "startLine": 1607,
                     "startColumn": 4,
-                    "startOffset": 126568,
+                    "startOffset": 126589,
                     "endLine": 1608,
                     "endColumn": 12,
-                    "endOffset": 126679
+                    "endOffset": 126700
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10278,10 +10278,10 @@
                 "to": {
                     "startLine": 1609,
                     "startColumn": 4,
-                    "startOffset": 126684,
+                    "startOffset": 126705,
                     "endLine": 1610,
                     "endColumn": 12,
-                    "endOffset": 126795
+                    "endOffset": 126816
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10299,9 +10299,9 @@
                 "to": {
                     "startLine": 1611,
                     "startColumn": 4,
-                    "startOffset": 126800,
+                    "startOffset": 126821,
                     "endColumn": 93,
-                    "endOffset": 126889
+                    "endOffset": 126910
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10318,9 +10318,9 @@
                 "to": {
                     "startLine": 1612,
                     "startColumn": 4,
-                    "startOffset": 126894,
+                    "startOffset": 126915,
                     "endColumn": 113,
-                    "endOffset": 127003
+                    "endOffset": 127024
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10337,9 +10337,9 @@
                 "to": {
                     "startLine": 1613,
                     "startColumn": 4,
-                    "startOffset": 127008,
+                    "startOffset": 127029,
                     "endColumn": 111,
-                    "endOffset": 127115
+                    "endOffset": 127136
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10356,10 +10356,10 @@
                 "to": {
                     "startLine": 1614,
                     "startColumn": 4,
-                    "startOffset": 127120,
+                    "startOffset": 127141,
                     "endLine": 1615,
                     "endColumn": 12,
-                    "endOffset": 127217
+                    "endOffset": 127238
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10377,10 +10377,10 @@
                 "to": {
                     "startLine": 1616,
                     "startColumn": 4,
-                    "startOffset": 127222,
+                    "startOffset": 127243,
                     "endLine": 1617,
                     "endColumn": 12,
-                    "endOffset": 127337
+                    "endOffset": 127358
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10398,10 +10398,10 @@
                 "to": {
                     "startLine": 1618,
                     "startColumn": 4,
-                    "startOffset": 127342,
+                    "startOffset": 127363,
                     "endLine": 1619,
                     "endColumn": 12,
-                    "endOffset": 127459
+                    "endOffset": 127480
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10419,9 +10419,9 @@
                 "to": {
                     "startLine": 1620,
                     "startColumn": 4,
-                    "startOffset": 127464,
+                    "startOffset": 127485,
                     "endColumn": 81,
-                    "endOffset": 127541
+                    "endOffset": 127562
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10438,9 +10438,9 @@
                 "to": {
                     "startLine": 1621,
                     "startColumn": 4,
-                    "startOffset": 127546,
+                    "startOffset": 127567,
                     "endColumn": 103,
-                    "endOffset": 127645
+                    "endOffset": 127666
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10457,9 +10457,9 @@
                 "to": {
                     "startLine": 1622,
                     "startColumn": 4,
-                    "startOffset": 127650,
+                    "startOffset": 127671,
                     "endColumn": 119,
-                    "endOffset": 127765
+                    "endOffset": 127786
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10476,9 +10476,9 @@
                 "to": {
                     "startLine": 1623,
                     "startColumn": 4,
-                    "startOffset": 127770,
+                    "startOffset": 127791,
                     "endColumn": 125,
-                    "endOffset": 127891
+                    "endOffset": 127912
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10495,9 +10495,9 @@
                 "to": {
                     "startLine": 1624,
                     "startColumn": 4,
-                    "startOffset": 127896,
+                    "startOffset": 127917,
                     "endColumn": 97,
-                    "endOffset": 127989
+                    "endOffset": 128010
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10514,9 +10514,9 @@
                 "to": {
                     "startLine": 1625,
                     "startColumn": 4,
-                    "startOffset": 127994,
+                    "startOffset": 128015,
                     "endColumn": 93,
-                    "endOffset": 128083
+                    "endOffset": 128104
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10533,9 +10533,9 @@
                 "to": {
                     "startLine": 1626,
                     "startColumn": 4,
-                    "startOffset": 128088,
+                    "startOffset": 128109,
                     "endColumn": 87,
-                    "endOffset": 128171
+                    "endOffset": 128192
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10552,9 +10552,9 @@
                 "to": {
                     "startLine": 1627,
                     "startColumn": 4,
-                    "startOffset": 128176,
+                    "startOffset": 128197,
                     "endColumn": 111,
-                    "endOffset": 128283
+                    "endOffset": 128304
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10571,9 +10571,9 @@
                 "to": {
                     "startLine": 1628,
                     "startColumn": 4,
-                    "startOffset": 128288,
+                    "startOffset": 128309,
                     "endColumn": 115,
-                    "endOffset": 128399
+                    "endOffset": 128420
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10590,9 +10590,9 @@
                 "to": {
                     "startLine": 1629,
                     "startColumn": 4,
-                    "startOffset": 128404,
+                    "startOffset": 128425,
                     "endColumn": 121,
-                    "endOffset": 128521
+                    "endOffset": 128542
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10609,9 +10609,9 @@
                 "to": {
                     "startLine": 1630,
                     "startColumn": 4,
-                    "startOffset": 128526,
+                    "startOffset": 128547,
                     "endColumn": 111,
-                    "endOffset": 128633
+                    "endOffset": 128654
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10628,10 +10628,10 @@
                 "to": {
                     "startLine": 1631,
                     "startColumn": 4,
-                    "startOffset": 128638,
+                    "startOffset": 128659,
                     "endLine": 1633,
                     "endColumn": 12,
-                    "endOffset": 128808
+                    "endOffset": 128829
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10649,9 +10649,9 @@
                 "to": {
                     "startLine": 1634,
                     "startColumn": 4,
-                    "startOffset": 128813,
+                    "startOffset": 128834,
                     "endColumn": 115,
-                    "endOffset": 128924
+                    "endOffset": 128945
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10668,9 +10668,9 @@
                 "to": {
                     "startLine": 1635,
                     "startColumn": 4,
-                    "startOffset": 128929,
+                    "startOffset": 128950,
                     "endColumn": 85,
-                    "endOffset": 129010
+                    "endOffset": 129031
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10687,9 +10687,9 @@
                 "to": {
                     "startLine": 1636,
                     "startColumn": 4,
-                    "startOffset": 129015,
+                    "startOffset": 129036,
                     "endColumn": 91,
-                    "endOffset": 129102
+                    "endOffset": 129123
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10706,10 +10706,10 @@
                 "to": {
                     "startLine": 1637,
                     "startColumn": 4,
-                    "startOffset": 129107,
+                    "startOffset": 129128,
                     "endLine": 1638,
                     "endColumn": 12,
-                    "endOffset": 129214
+                    "endOffset": 129235
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10727,10 +10727,10 @@
                 "to": {
                     "startLine": 1639,
                     "startColumn": 4,
-                    "startOffset": 129219,
+                    "startOffset": 129240,
                     "endLine": 1640,
                     "endColumn": 12,
-                    "endOffset": 129338
+                    "endOffset": 129359
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10748,9 +10748,9 @@
                 "to": {
                     "startLine": 1641,
                     "startColumn": 4,
-                    "startOffset": 129343,
+                    "startOffset": 129364,
                     "endColumn": 66,
-                    "endOffset": 129405
+                    "endOffset": 129426
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10767,10 +10767,10 @@
                 "to": {
                     "startLine": 1642,
                     "startColumn": 4,
-                    "startOffset": 129410,
+                    "startOffset": 129431,
                     "endLine": 1643,
                     "endColumn": 12,
-                    "endOffset": 129531
+                    "endOffset": 129552
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10788,9 +10788,9 @@
                 "to": {
                     "startLine": 1644,
                     "startColumn": 4,
-                    "startOffset": 129536,
+                    "startOffset": 129557,
                     "endColumn": 67,
-                    "endOffset": 129599
+                    "endOffset": 129620
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10807,10 +10807,10 @@
                 "to": {
                     "startLine": 1645,
                     "startColumn": 4,
-                    "startOffset": 129604,
+                    "startOffset": 129625,
                     "endLine": 1646,
                     "endColumn": 12,
-                    "endOffset": 129727
+                    "endOffset": 129748
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10828,10 +10828,10 @@
                 "to": {
                     "startLine": 1647,
                     "startColumn": 4,
-                    "startOffset": 129732,
+                    "startOffset": 129753,
                     "endLine": 1648,
                     "endColumn": 12,
-                    "endOffset": 129871
+                    "endOffset": 129892
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10849,10 +10849,10 @@
                 "to": {
                     "startLine": 1649,
                     "startColumn": 4,
-                    "startOffset": 129876,
+                    "startOffset": 129897,
                     "endLine": 1650,
                     "endColumn": 12,
-                    "endOffset": 129999
+                    "endOffset": 130020
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10870,9 +10870,9 @@
                 "to": {
                     "startLine": 1651,
                     "startColumn": 4,
-                    "startOffset": 130004,
+                    "startOffset": 130025,
                     "endColumn": 68,
-                    "endOffset": 130068
+                    "endOffset": 130089
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10889,9 +10889,9 @@
                 "to": {
                     "startLine": 1652,
                     "startColumn": 4,
-                    "startOffset": 130073,
+                    "startOffset": 130094,
                     "endColumn": 94,
-                    "endOffset": 130163
+                    "endOffset": 130184
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10908,9 +10908,9 @@
                 "to": {
                     "startLine": 1653,
                     "startColumn": 4,
-                    "startOffset": 130168,
+                    "startOffset": 130189,
                     "endColumn": 114,
-                    "endOffset": 130278
+                    "endOffset": 130299
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10927,9 +10927,9 @@
                 "to": {
                     "startLine": 1654,
                     "startColumn": 4,
-                    "startOffset": 130283,
+                    "startOffset": 130304,
                     "endColumn": 112,
-                    "endOffset": 130391
+                    "endOffset": 130412
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10946,9 +10946,9 @@
                 "to": {
                     "startLine": 1655,
                     "startColumn": 4,
-                    "startOffset": 130396,
+                    "startOffset": 130417,
                     "endColumn": 98,
-                    "endOffset": 130490
+                    "endOffset": 130511
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10965,9 +10965,9 @@
                 "to": {
                     "startLine": 1656,
                     "startColumn": 4,
-                    "startOffset": 130495,
+                    "startOffset": 130516,
                     "endColumn": 108,
-                    "endOffset": 130599
+                    "endOffset": 130620
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -10984,9 +10984,9 @@
                 "to": {
                     "startLine": 1657,
                     "startColumn": 4,
-                    "startOffset": 130604,
+                    "startOffset": 130625,
                     "endColumn": 110,
-                    "endOffset": 130710
+                    "endOffset": 130731
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11003,9 +11003,9 @@
                 "to": {
                     "startLine": 1658,
                     "startColumn": 4,
-                    "startOffset": 130715,
+                    "startOffset": 130736,
                     "endColumn": 110,
-                    "endOffset": 130821
+                    "endOffset": 130842
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11022,9 +11022,9 @@
                 "to": {
                     "startLine": 1659,
                     "startColumn": 4,
-                    "startOffset": 130826,
+                    "startOffset": 130847,
                     "endColumn": 100,
-                    "endOffset": 130922
+                    "endOffset": 130943
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11041,9 +11041,9 @@
                 "to": {
                     "startLine": 1660,
                     "startColumn": 4,
-                    "startOffset": 130927,
+                    "startOffset": 130948,
                     "endColumn": 104,
-                    "endOffset": 131027
+                    "endOffset": 131048
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11060,10 +11060,10 @@
                 "to": {
                     "startLine": 1661,
                     "startColumn": 4,
-                    "startOffset": 131032,
+                    "startOffset": 131053,
                     "endLine": 1662,
                     "endColumn": 12,
-                    "endOffset": 131139
+                    "endOffset": 131160
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11081,10 +11081,10 @@
                 "to": {
                     "startLine": 1663,
                     "startColumn": 4,
-                    "startOffset": 131144,
+                    "startOffset": 131165,
                     "endLine": 1664,
                     "endColumn": 12,
-                    "endOffset": 131269
+                    "endOffset": 131290
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11102,9 +11102,9 @@
                 "to": {
                     "startLine": 1665,
                     "startColumn": 4,
-                    "startOffset": 131274,
+                    "startOffset": 131295,
                     "endColumn": 90,
-                    "endOffset": 131360
+                    "endOffset": 131381
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11121,9 +11121,9 @@
                 "to": {
                     "startLine": 1666,
                     "startColumn": 4,
-                    "startOffset": 131365,
+                    "startOffset": 131386,
                     "endColumn": 122,
-                    "endOffset": 131483
+                    "endOffset": 131504
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11140,10 +11140,10 @@
                 "to": {
                     "startLine": 1667,
                     "startColumn": 4,
-                    "startOffset": 131488,
+                    "startOffset": 131509,
                     "endLine": 1668,
                     "endColumn": 12,
-                    "endOffset": 131595
+                    "endOffset": 131616
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11161,9 +11161,9 @@
                 "to": {
                     "startLine": 1669,
                     "startColumn": 4,
-                    "startOffset": 131600,
+                    "startOffset": 131621,
                     "endColumn": 85,
-                    "endOffset": 131681
+                    "endOffset": 131702
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11180,9 +11180,9 @@
                 "to": {
                     "startLine": 1670,
                     "startColumn": 4,
-                    "startOffset": 131686,
+                    "startOffset": 131707,
                     "endColumn": 103,
-                    "endOffset": 131785
+                    "endOffset": 131806
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11199,10 +11199,10 @@
                 "to": {
                     "startLine": 1671,
                     "startColumn": 4,
-                    "startOffset": 131790,
+                    "startOffset": 131811,
                     "endLine": 1672,
                     "endColumn": 12,
-                    "endOffset": 131893
+                    "endOffset": 131914
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11220,10 +11220,10 @@
                 "to": {
                     "startLine": 1673,
                     "startColumn": 4,
-                    "startOffset": 131898,
+                    "startOffset": 131919,
                     "endLine": 1674,
                     "endColumn": 12,
-                    "endOffset": 131993
+                    "endOffset": 132014
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11241,10 +11241,10 @@
                 "to": {
                     "startLine": 1675,
                     "startColumn": 4,
-                    "startOffset": 131998,
+                    "startOffset": 132019,
                     "endLine": 1676,
                     "endColumn": 12,
-                    "endOffset": 132111
+                    "endOffset": 132132
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11262,10 +11262,10 @@
                 "to": {
                     "startLine": 1677,
                     "startColumn": 4,
-                    "startOffset": 132116,
+                    "startOffset": 132137,
                     "endLine": 1678,
                     "endColumn": 12,
-                    "endOffset": 132215
+                    "endOffset": 132236
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11283,10 +11283,10 @@
                 "to": {
                     "startLine": 1679,
                     "startColumn": 4,
-                    "startOffset": 132220,
+                    "startOffset": 132241,
                     "endLine": 1680,
                     "endColumn": 12,
-                    "endOffset": 132319
+                    "endOffset": 132340
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11304,10 +11304,10 @@
                 "to": {
                     "startLine": 1681,
                     "startColumn": 4,
-                    "startOffset": 132324,
+                    "startOffset": 132345,
                     "endLine": 1682,
                     "endColumn": 12,
-                    "endOffset": 132445
+                    "endOffset": 132466
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11325,9 +11325,9 @@
                 "to": {
                     "startLine": 1683,
                     "startColumn": 4,
-                    "startOffset": 132450,
+                    "startOffset": 132471,
                     "endColumn": 87,
-                    "endOffset": 132533
+                    "endOffset": 132554
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11344,9 +11344,9 @@
                 "to": {
                     "startLine": 1684,
                     "startColumn": 4,
-                    "startOffset": 132538,
+                    "startOffset": 132559,
                     "endColumn": 107,
-                    "endOffset": 132641
+                    "endOffset": 132662
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11363,9 +11363,9 @@
                 "to": {
                     "startLine": 1685,
                     "startColumn": 4,
-                    "startOffset": 132646,
+                    "startOffset": 132667,
                     "endColumn": 99,
-                    "endOffset": 132741
+                    "endOffset": 132762
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11382,9 +11382,9 @@
                 "to": {
                     "startLine": 1686,
                     "startColumn": 4,
-                    "startOffset": 132746,
+                    "startOffset": 132767,
                     "endColumn": 89,
-                    "endOffset": 132831
+                    "endOffset": 132852
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11401,9 +11401,9 @@
                 "to": {
                     "startLine": 1687,
                     "startColumn": 4,
-                    "startOffset": 132836,
+                    "startOffset": 132857,
                     "endColumn": 109,
-                    "endOffset": 132941
+                    "endOffset": 132962
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11420,9 +11420,9 @@
                 "to": {
                     "startLine": 1688,
                     "startColumn": 4,
-                    "startOffset": 132946,
+                    "startOffset": 132967,
                     "endColumn": 83,
-                    "endOffset": 133025
+                    "endOffset": 133046
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11439,9 +11439,9 @@
                 "to": {
                     "startLine": 1689,
                     "startColumn": 4,
-                    "startOffset": 133030,
+                    "startOffset": 133051,
                     "endColumn": 83,
-                    "endOffset": 133109
+                    "endOffset": 133130
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11458,9 +11458,9 @@
                 "to": {
                     "startLine": 1690,
                     "startColumn": 4,
-                    "startOffset": 133114,
+                    "startOffset": 133135,
                     "endColumn": 53,
-                    "endOffset": 133163
+                    "endOffset": 133184
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11477,9 +11477,9 @@
                 "to": {
                     "startLine": 1691,
                     "startColumn": 4,
-                    "startOffset": 133168,
+                    "startOffset": 133189,
                     "endColumn": 63,
-                    "endOffset": 133227
+                    "endOffset": 133248
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11496,9 +11496,9 @@
                 "to": {
                     "startLine": 1692,
                     "startColumn": 4,
-                    "startOffset": 133232,
+                    "startOffset": 133253,
                     "endColumn": 105,
-                    "endOffset": 133333
+                    "endOffset": 133354
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11515,9 +11515,9 @@
                 "to": {
                     "startLine": 1693,
                     "startColumn": 4,
-                    "startOffset": 133338,
+                    "startOffset": 133359,
                     "endColumn": 109,
-                    "endOffset": 133443
+                    "endOffset": 133464
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11534,9 +11534,9 @@
                 "to": {
                     "startLine": 1694,
                     "startColumn": 4,
-                    "startOffset": 133448,
+                    "startOffset": 133469,
                     "endColumn": 83,
-                    "endOffset": 133527
+                    "endOffset": 133548
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11553,9 +11553,9 @@
                 "to": {
                     "startLine": 1695,
                     "startColumn": 4,
-                    "startOffset": 133532,
+                    "startOffset": 133553,
                     "endColumn": 119,
-                    "endOffset": 133647
+                    "endOffset": 133668
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values/values.xml",
@@ -11572,10 +11572,10 @@
                 "to": {
                     "startLine": 1696,
                     "startColumn": 4,
-                    "startOffset": 133652,
+                    "startOffset": 133673,
                     "endLine": 1699,
                     "endColumn": 12,
-                    "endOffset": 133865
+                    "endOffset": 133886
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11593,10 +11593,10 @@
                 "to": {
                     "startLine": 1700,
                     "startColumn": 4,
-                    "startOffset": 133870,
+                    "startOffset": 133891,
                     "endLine": 1705,
                     "endColumn": 12,
-                    "endOffset": 134263
+                    "endOffset": 134284
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11614,10 +11614,10 @@
                 "to": {
                     "startLine": 1706,
                     "startColumn": 4,
-                    "startOffset": 134268,
+                    "startOffset": 134289,
                     "endLine": 1709,
                     "endColumn": 12,
-                    "endOffset": 134470
+                    "endOffset": 134491
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11635,10 +11635,10 @@
                 "to": {
                     "startLine": 1710,
                     "startColumn": 4,
-                    "startOffset": 134475,
+                    "startOffset": 134496,
                     "endLine": 1712,
                     "endColumn": 12,
-                    "endOffset": 134629
+                    "endOffset": 134650
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11656,10 +11656,10 @@
                 "to": {
                     "startLine": 1713,
                     "startColumn": 4,
-                    "startOffset": 134634,
+                    "startOffset": 134655,
                     "endLine": 1721,
                     "endColumn": 12,
-                    "endOffset": 135196
+                    "endOffset": 135217
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11677,10 +11677,10 @@
                 "to": {
                     "startLine": 1722,
                     "startColumn": 4,
-                    "startOffset": 135201,
+                    "startOffset": 135222,
                     "endLine": 1727,
                     "endColumn": 12,
-                    "endOffset": 135557
+                    "endOffset": 135578
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11698,10 +11698,10 @@
                 "to": {
                     "startLine": 1728,
                     "startColumn": 4,
-                    "startOffset": 135562,
+                    "startOffset": 135583,
                     "endLine": 1730,
                     "endColumn": 12,
-                    "endOffset": 135686
+                    "endOffset": 135707
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11719,10 +11719,10 @@
                 "to": {
                     "startLine": 1731,
                     "startColumn": 4,
-                    "startOffset": 135691,
+                    "startOffset": 135712,
                     "endLine": 1740,
                     "endColumn": 12,
-                    "endOffset": 136430
+                    "endOffset": 136451
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11740,10 +11740,10 @@
                 "to": {
                     "startLine": 1741,
                     "startColumn": 4,
-                    "startOffset": 136435,
+                    "startOffset": 136456,
                     "endLine": 1744,
                     "endColumn": 12,
-                    "endOffset": 136610
+                    "endOffset": 136631
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",
@@ -11761,10 +11761,10 @@
                 "to": {
                     "startLine": 1745,
                     "startColumn": 4,
-                    "startOffset": 136615,
+                    "startOffset": 136636,
                     "endLine": 1750,
                     "endColumn": 12,
-                    "endOffset": 137051
+                    "endOffset": 137072
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/values/values.xml",

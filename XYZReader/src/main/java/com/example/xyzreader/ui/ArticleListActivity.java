@@ -3,6 +3,7 @@ package com.example.xyzreader.ui;
 import android.annotation.TargetApi;
 import android.app.ActivityOptions;
 import android.app.LoaderManager;
+import android.app.SharedElementCallback;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -11,22 +12,16 @@ import android.content.Loader;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.SharedElementCallback;
 import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
 import android.util.Log;
-import android.util.Pair;
-import android.util.TypedValue;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
+import android.view.Window;
 import android.widget.TextView;
 
 import com.example.xyzreader.R;
@@ -34,8 +29,6 @@ import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
 import com.example.xyzreader.data.UpdaterService;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -51,7 +44,6 @@ import java.util.Map;
 public class ArticleListActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
 
-    private Toolbar mToolbar;
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
     private Bundle mTmpReenterState;
@@ -59,6 +51,8 @@ public class ArticleListActivity extends AppCompatActivity implements
 
     static final String EXTRA_STARTING_POSITION = "extra_starting_position";
     static final String EXTRA_CURRENT_POSITION = "extra_current_position";
+
+    public static String TAG = "nd";
 
     @Override
     public void onActivityReenter(int resultCode, Intent data) {
@@ -71,50 +65,19 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             postponeEnterTransition();
-            mRecyclerView.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
-                @Override
-                @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-                public boolean onPreDraw() {
-                    mRecyclerView.getViewTreeObserver().removeOnPreDrawListener(this);
-                    mRecyclerView.requestLayout();
-                    startPostponedEnterTransition();
-                    return true;
-                }
-            });
+            mRecyclerView.getViewTreeObserver().addOnPreDrawListener(
+                    new ViewTreeObserver.OnPreDrawListener() {
+                        @Override
+                        @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+                        public boolean onPreDraw() {
+                            mRecyclerView.getViewTreeObserver().removeOnPreDrawListener(this);
+                            mRecyclerView.requestLayout();
+                            startPostponedEnterTransition();
+                            return true;
+                        }
+                    });
         }
     }
-
-    private SharedElementCallback sharedElementCallback = new SharedElementCallback() {
-        @Override
-        @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-        public void onMapSharedElements(List<String> names, Map<String, View> sharedElements) {
-            Log.d("nd", "onMapSharedElements");
-            if (mTmpReenterState != null) {
-                int startingPosition = mTmpReenterState.getInt(EXTRA_STARTING_POSITION);
-                int currentPosition = mTmpReenterState.getInt(EXTRA_CURRENT_POSITION);
-                if (startingPosition != currentPosition) {
-                    // If startingPosition != currentPosition the user must have swiped to a
-                    // different page in the DetailsActivity. We must update the shared element
-                    // so that the correct one falls into place.
-                    String newTransitionName = getString(R.string.transition_name_mainpic) + currentPosition;
-                    View newSharedElement = mRecyclerView.findViewWithTag(newTransitionName);
-                    if (newSharedElement != null) {
-                        names.clear();
-                        names.add(newTransitionName);
-                        sharedElements.clear();
-                        sharedElements.put(newTransitionName, newSharedElement);
-                    }
-                }
-                mTmpReenterState = null;
-            } else {
-                View mainpic = findViewById(R.id.thumbnail);
-                if (mainpic != null) {
-                    names.add(mainpic.getTransitionName());
-                    sharedElements.put(mainpic.getTransitionName(), mainpic);
-                }
-            }
-        }
-    };
 
     @Override
     protected void onResume() {
@@ -125,12 +88,47 @@ public class ArticleListActivity extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            requestWindowFeature(Window.FEATURE_ACTIVITY_TRANSITIONS);
+        }
         setContentView(R.layout.activity_article_list);
-        setExitSharedElementCallback(sharedElementCallback);
 
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-
-//        final View toolbarContainerView = findViewById(R.id.toolbar_container);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            final SharedElementCallback sharedElementCallback = new SharedElementCallback() {
+                @Override
+                @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+                public void onMapSharedElements(List<String> names, Map<String, View> sharedElements) {
+                    Log.d(TAG, "onMapSharedElements");
+                    if (mTmpReenterState != null) {
+                        int startingPosition = mTmpReenterState.getInt(EXTRA_STARTING_POSITION);
+                        int currentPosition = mTmpReenterState.getInt(EXTRA_CURRENT_POSITION);
+                        Log.d(TAG, "starting " + startingPosition + " current " + currentPosition);
+                        if (startingPosition != currentPosition) {
+                            // If startingPosition != currentPosition the user must have swiped to a
+                            // different page in the DetailsActivity. We must update the shared element
+                            // so that the correct one falls into place.
+                            String newTransitionName = getString(R.string.transition_name_mainpic) + currentPosition;
+                            View newSharedElement = mRecyclerView.findViewWithTag(newTransitionName);
+                            if (newSharedElement != null) {
+                                Log.d(TAG, "newSharedEl not null");
+                                names.clear();
+                                names.add(newTransitionName);
+                                sharedElements.clear();
+                                sharedElements.put(newTransitionName, newSharedElement);
+                            }
+                        }
+                        mTmpReenterState = null;
+                    } else {
+                        View mainpic = findViewById(R.id.thumbnail);
+                        if (mainpic != null) {
+                            names.add(mainpic.getTransitionName());
+                            sharedElements.put(mainpic.getTransitionName(), mainpic);
+                        }
+                    }
+                }
+            };
+            setExitSharedElementCallback(sharedElementCallback);
+        }
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
 
@@ -199,7 +197,7 @@ public class ArticleListActivity extends AppCompatActivity implements
     private class Adapter extends RecyclerView.Adapter<ViewHolder> {
         private Cursor mCursor;
 
-        public Adapter(Cursor cursor) {
+        Adapter(Cursor cursor) {
             mCursor = cursor;
         }
 
@@ -231,16 +229,6 @@ public class ArticleListActivity extends AppCompatActivity implements
                     ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());
             holder.thumbnailView.setAspectRatio(mCursor.getFloat(ArticleLoader.Query.ASPECT_RATIO));
             holder.setPosition(position);
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                String name = getString(R.string.transition_name_mainpic) + position;
-                holder.thumbnailView.setTransitionName(name);
-//                if (!ArticleListActivity.transitionNames.contains(name)) {
-//                    ArticleListActivity.transitionNames.add(name);
-//                }
-//                if (!ArticleListActivity.transitionElements.containsKey(name)) {
-//                    ArticleListActivity.transitionElements.put(name, holder.thumbnailView);
-//                }
-            }
         }
 
         @Override
@@ -249,14 +237,14 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder
+    class ViewHolder extends RecyclerView.ViewHolder
             implements View.OnClickListener {
-        public DynamicHeightNetworkImageView thumbnailView;
-        public TextView titleView;
-        public TextView subtitleView;
+        DynamicHeightNetworkImageView thumbnailView;
+        TextView titleView;
+        TextView subtitleView;
         private int position;
 
-        public ViewHolder(View view) {
+        ViewHolder(View view) {
             super(view);
             thumbnailView = (DynamicHeightNetworkImageView) view.findViewById(R.id.thumbnail);
             titleView = (TextView) view.findViewById(R.id.article_title);
@@ -264,35 +252,37 @@ public class ArticleListActivity extends AppCompatActivity implements
             view.setOnClickListener(this);
         }
 
-        public void setPosition(int p) {
+        void setPosition(int p) {
             position = p;
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 thumbnailView.setTransitionName(getString(R.string.transition_name_mainpic) + p);
+                thumbnailView.setTag(getString(R.string.transition_name_mainpic) + p);
             }
         }
 
         @Override
         public void onClick(View view) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                Log.d("nd", "clicked item with trans name "
+                Log.d(TAG, "clicked item with trans name "
                         + thumbnailView.getTransitionName());
                 ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(
                         ArticleListActivity.this,
                         thumbnailView, thumbnailView.getTransitionName()
                 );
                 Intent intent = new Intent(Intent.ACTION_VIEW,
-                        ItemsContract.Items.buildItemUri(position));
+                        ItemsContract.Items.buildItemUri(getItemId()));
                 intent.putExtra(EXTRA_STARTING_POSITION, position);
                 if (!mIsDetailsActivityStarted) {
                     mIsDetailsActivityStarted = true;
-                    Log.d("nd", "starting activity 1");
-                    Log.d("nd", "intent: " + intent.toUri(1));
+                    Log.d(TAG, "intent: " + intent.toUri(1));
+                    Log.d(TAG, "options: " + options.toBundle());
+//                    startActivity(intent);
                     startActivity(intent, options.toBundle());
                 }
             } else {
-                Log.d("nd", "starting activity 2");
-                startActivity(new Intent(Intent.ACTION_VIEW,
-                        ItemsContract.Items.buildItemUri(getItemId())));
+                Intent intent = new Intent(Intent.ACTION_VIEW,
+                        ItemsContract.Items.buildItemUri(getItemId()));
+                startActivity(intent);
             }
         }
     }

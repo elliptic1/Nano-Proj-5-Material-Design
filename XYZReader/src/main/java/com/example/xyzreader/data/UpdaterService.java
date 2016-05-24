@@ -13,6 +13,7 @@ import android.text.format.Time;
 import android.util.Log;
 
 import com.example.xyzreader.remote.RemoteEndpointUtil;
+import com.example.xyzreader.ui.ArticleListActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -21,7 +22,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class UpdaterService extends IntentService {
-    private static final String TAG = "UpdaterService";
+    private static final String TAG = ArticleListActivity.TAG + "-UpdaterService";
 
     public static final String BROADCAST_ACTION_STATE_CHANGE
             = "com.example.xyzreader.intent.action.STATE_CHANGE";

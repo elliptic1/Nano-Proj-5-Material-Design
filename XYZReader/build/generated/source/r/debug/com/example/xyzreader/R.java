@@ -2927,7 +2927,12 @@ containing a value of this type.
         public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f090100;
         public static final int Theme_AppCompat_Light_NoActionBar=0x7f090101;
         public static final int Theme_AppCompat_NoActionBar=0x7f090102;
+        /** <item name="android:windowAllowEnterTransitionOverlap">true</item>
+<item name="android:windowAllowReturnTransitionOverlap">true</item>
+         */
         public static final int Theme_Bacon=0x7f09007e;
+        /** <item name="android:statusBarColor">@android:color/transparent</item>
+         */
         public static final int Theme_Bacon_Detail=0x7f09007f;
         public static final int Theme_Design=0x7f090103;
         public static final int Theme_Design_BottomSheetDialog=0x7f090104;
