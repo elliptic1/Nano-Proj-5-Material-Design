@@ -2,4 +2,5 @@
     <declare-styleable name="DrawInsetsFrameLayout">
         <attr name="insetBackground" format="color|reference" />
     </declare-styleable>
+    <attr name="my_drawable" format="reference" />
 </resources>

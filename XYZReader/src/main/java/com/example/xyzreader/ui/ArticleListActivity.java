@@ -16,12 +16,18 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.Window;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.DecelerateInterpolator;
+import android.view.animation.LinearInterpolator;
+import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.xyzreader.R;
@@ -48,6 +54,8 @@ public class ArticleListActivity extends AppCompatActivity implements
     private RecyclerView mRecyclerView;
     private Bundle mTmpReenterState;
     private boolean mIsDetailsActivityStarted;
+
+    private Toolbar mToolbar;
 
     static final String EXTRA_STARTING_POSITION = "extra_starting_position";
     static final String EXTRA_CURRENT_POSITION = "extra_current_position";
@@ -93,6 +101,8 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
         setContentView(R.layout.activity_article_list);
 
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             final SharedElementCallback sharedElementCallback = new SharedElementCallback() {
                 @Override
@@ -131,14 +141,39 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
 
         mSwipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
+        if (mSwipeRefreshLayout != null) {
+            mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+                @Override
+                public void onRefresh() {
+                    refresh();
+                }
+            });
+        }
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+//        mRecyclerView.setOnScrollListener(new HidingScrollListener() {
+//            @Override
+//            public void onScroll(int scrolledDistance) {
+//                Log.d("nano", "scrolled " + scrolledDistance);
+//                mRecyclerView.animate().translationY(-scrolledDistance).setInterpolator(new LinearInterpolator());
+//            }
+//        });
         getLoaderManager().initLoader(0, null, this);
 
         if (savedInstanceState == null) {
             refresh();
         }
     }
+
+    // https://mzgreen.github.io/2015/02/15/How-to-hideshow-Toolbar-when-list-is-scroling(part1)/
+//    private void hideViews() {
+//        mRecyclerView.animate().translationY(-mRecyclerView.getHeight()).setInterpolator(new LinearInterpolator());
+//    }
+//
+//    private void showViews() {
+//        mRecyclerView.animate().translationY(0).setInterpolator(new LinearInterpolator());
+//    }
+    //
 
     private void refresh() {
         startService(new Intent(this, UpdaterService.class));
@@ -274,9 +309,6 @@ public class ArticleListActivity extends AppCompatActivity implements
                 intent.putExtra(EXTRA_STARTING_POSITION, position);
                 if (!mIsDetailsActivityStarted) {
                     mIsDetailsActivityStarted = true;
-                    Log.d(TAG, "intent: " + intent.toUri(1));
-                    Log.d(TAG, "options: " + options.toBundle());
-//                    startActivity(intent);
                     startActivity(intent, options.toBundle());
                 }
             } else {

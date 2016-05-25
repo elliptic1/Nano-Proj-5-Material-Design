@@ -1078,9 +1078,9 @@
                     "startLine": 244,
                     "startColumn": 4,
                     "startOffset": 17827,
-                    "endLine": 249,
+                    "endLine": 250,
                     "endColumn": 12,
-                    "endOffset": 18218
+                    "endOffset": 18273
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/src/main/res/values-v21/styles.xml",
@@ -1088,20 +1088,20 @@
                         "startLine": 19,
                         "startColumn": 4,
                         "startOffset": 706,
-                        "endLine": 24,
+                        "endLine": 25,
                         "endColumn": 12,
-                        "endOffset": 1097
+                        "endOffset": 1152
                     }
                 }
             },
             {
                 "to": {
-                    "startLine": 250,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 18223,
-                    "endLine": 252,
+                    "startOffset": 18278,
+                    "endLine": 253,
                     "endColumn": 12,
-                    "endOffset": 18375
+                    "endOffset": 18430
                 },
                 "from": {
                     "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/src/main/res/values-v21/styles.xml"

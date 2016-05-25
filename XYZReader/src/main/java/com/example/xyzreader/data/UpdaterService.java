@@ -19,7 +19,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Locale;
 
 public class UpdaterService extends IntentService {
     private static final String TAG = ArticleListActivity.TAG + "-UpdaterService";
@@ -35,7 +40,7 @@ public class UpdaterService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        Time time = new Time();
+        GregorianCalendar cal = new GregorianCalendar();
 
         ConnectivityManager cm = (ConnectivityManager) getSystemService(CONNECTIVITY_SERVICE);
         NetworkInfo ni = cm.getActiveNetworkInfo();
@@ -61,6 +66,7 @@ public class UpdaterService extends IntentService {
                 throw new JSONException("Invalid parsed item array" );
             }
 
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", Locale.getDefault());
             for (int i = 0; i < array.length(); i++) {
                 ContentValues values = new ContentValues();
                 JSONObject object = array.getJSONObject(i);
@@ -71,8 +77,15 @@ public class UpdaterService extends IntentService {
                 values.put(ItemsContract.Items.THUMB_URL, object.getString("thumb" ));
                 values.put(ItemsContract.Items.PHOTO_URL, object.getString("photo" ));
                 values.put(ItemsContract.Items.ASPECT_RATIO, object.getString("aspect_ratio" ));
-                time.parse3339(object.getString("published_date"));
-                values.put(ItemsContract.Items.PUBLISHED_DATE, time.toMillis(false));
+                simpleDateFormat.setCalendar(cal);
+                Date date = new Date();
+                try {
+                    date = simpleDateFormat.parse(object.getString("published_date"));
+                } catch (ParseException ignore) {
+                    Log.e("nano", "error parsing " + object.getString("published_date"));
+                }
+                cal.setTime(date);
+                values.put(ItemsContract.Items.PUBLISHED_DATE, cal.getTimeInMillis());
                 cpo.add(ContentProviderOperation.newInsert(dirUri).withValues(values).build());
             }
 
