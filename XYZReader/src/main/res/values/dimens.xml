@@ -4,8 +4,39 @@
     <dimen name="detail_body_text_size">22sp</dimen>
     <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.25</item>
 
-    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_elevation">4dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+
+    <dimen name="list_item_article_subtitle_padding_left">16dp</dimen>
+    <dimen name="list_item_article_subtitle_padding_right">16dp</dimen>
+    <dimen name="list_item_article_subtitle_padding_bottom">16dp</dimen>
+
+    <dimen name="list_item_article_title_padding_left">16dp</dimen>
+    <dimen name="list_item_article_title_padding_right">16dp</dimen>
+    <dimen name="list_item_article_title_padding_top">16dp</dimen>
+    <dimen name="list_item_article_title_padding_bottom">4dp</dimen>
+
+    <dimen name="article_list_recycler_view_padding_top">116dp</dimen>
+    <dimen name="article_list_recycler_view_base_bottom">28dp</dimen>
+
+    <dimen name="frame_layout_layout_height">112dp</dimen>
+
+    <dimen name="detail_image_view_layout_height">320dp</dimen>
+
+    <dimen name="photo_background_layout_height">112dp</dimen>
+
+    <dimen name="cardview_margin">4dp</dimen>
+
+    <dimen name="image_button_fab_layout_width">56dp</dimen>
+    <dimen name="image_button_fab_layout_height">56dp</dimen>
+
+    <dimen name="net_image_view_layout_height">100dp</dimen>
+
+    <dimen name="max_width_linear_layout_elevation">2dp</dimen>
+
+    <dimen name="detail_title_text_size_sw600">42sp</dimen>
+    <dimen name="detail_body_text_size_sw600">20sp</dimen>
+    <dimen name="fab_margin_sw600">24dp</dimen>
 
 </resources>

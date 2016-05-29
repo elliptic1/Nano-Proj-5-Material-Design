@@ -48,4 +48,7 @@
         <item name="android:paddingStart">@dimen/abc_action_bar_overflow_padding_start_material</item>
         <item name="android:paddingEnd">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
+    <style name="image_button_fab" parent="image_button_fab_base">
+                <item name="android:layout_marginEnd">@dimen/fab_margin</item>
+        </style>
 </resources>

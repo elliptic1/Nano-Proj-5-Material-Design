@@ -101,9 +101,8 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
         setContentView(R.layout.activity_article_list);
 
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            mToolbar = (Toolbar) findViewById(R.id.toolbar);
             final SharedElementCallback sharedElementCallback = new SharedElementCallback() {
                 @Override
                 @TargetApi(Build.VERSION_CODES.LOLLIPOP)

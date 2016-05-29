@@ -242,14 +242,46 @@
     </style>
     <style name="Platform.ThemeOverlay.AppCompat.Dark"/>
     <style name="Platform.ThemeOverlay.AppCompat.Light"/>
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <!-- enable overlapping of exiting and entering activities-->
+    <style name="Theme.Bacon" parent="Theme.Bacon.Common">
         <item name="android:windowActivityTransitions">true</item>
-        <item name="my_drawable">@drawable/logo</item>
-        <!--<item name="android:windowAllowEnterTransitionOverlap">true</item>-->
-        <!--<item name="android:windowAllowReturnTransitionOverlap">true</item>-->
     </style>
-    <style name="Theme.Bacon.Detail" parent="Theme.Bacon">
-        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+    <style name="app_bar_layout" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FF0000</item>
+    </style>
+    <style name="article_body" parent="article_body_base">
+    </style>
+    <style name="article_list_recycler_view" parent="article_list_recycler_view_base">
+        <item name="android:paddingTop">?attr/actionBarSize</item>
+    </style>
+    <style name="coordinator_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?colorPrimaryDark</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="fab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end|bottom</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:elevation">@dimen/fab_elevation</item>
+        <item name="android:src">@drawable/ic_share</item>
+    </style>
+    <style name="imageView" parent="imageView_base">
+
+    </style>
+    <style name="max_width_linear_layout" parent="max_width_linear_layout_base">
+        <item name="android:elevation">@dimen/max_width_linear_layout_elevation</item>
+    </style>
+    <style name="observable_scroll_view" parent="observable_scroll_view_base">
+        <item name="android:transitionGroup">true</item>
+    </style>
+    <style name="toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">?colorPrimaryDark</item>
+        <item name="android:popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
     </style>
 </resources>

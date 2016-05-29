@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <style name="image_button_fab" parent="image_button_fab_base">
+                <item name="android:layout_marginEnd">@dimen/fab_margin</item>
+        </style>
+</resources>

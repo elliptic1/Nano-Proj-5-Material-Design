@@ -295,6 +295,27 @@
                         "endOffset": 2921
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2926,
+                    "endLine": 52,
+                    "endColumn": 16,
+                    "endOffset": 3084
+                },
+                "from": {
+                    "file": "/home/todd/workspace/Nano-Proj-5-Material-Design/XYZReader/src/main/res/values-v17/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 8,
+                        "startOffset": 59,
+                        "endLine": 4,
+                        "endColumn": 16,
+                        "endOffset": 217
+                    }
+                }
             }
         ]
     }

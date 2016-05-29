@@ -207,9 +207,12 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="article_list_recycler_view_base_bottom">28dp</dimen>
+    <dimen name="article_list_recycler_view_padding_top">116dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
+    <dimen name="cardview_margin">4dp</dimen>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_bottom_sheet_modal_elevation">16dp</dimen>
     <dimen name="design_bottom_sheet_modal_peek_height">256dp</dimen>
@@ -241,30 +244,47 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <dimen name="detail_body_bottom_margin">88dp</dimen>
     <dimen name="detail_body_text_size">22sp</dimen>
+    <dimen name="detail_body_text_size_sw600">20sp</dimen>
     <dimen name="detail_body_top_margin">16dp</dimen>
     <dimen name="detail_card_max_width">10000dp</dimen>
     <dimen name="detail_card_top_margin">@dimen/detail_photo_height</dimen>
+    <dimen name="detail_image_view_layout_height">320dp</dimen>
     <dimen name="detail_inner_horiz_margin">16dp</dimen>
     <dimen name="detail_metabar_title_bottom_padding">4dp</dimen>
     <dimen name="detail_metabar_vert_padding">16dp</dimen>
     <dimen name="detail_photo_height">304dp</dimen>
     <dimen name="detail_title_text_size">32sp</dimen>
+    <dimen name="detail_title_text_size_sw600">42sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <dimen name="fab_elevation">2dp</dimen>
+    <dimen name="fab_elevation">4dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
+    <dimen name="fab_margin_sw600">24dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="frame_layout_layout_height">112dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
+    <dimen name="image_button_fab_layout_height">56dp</dimen>
+    <dimen name="image_button_fab_layout_width">56dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="list_item_article_subtitle_padding_bottom">16dp</dimen>
+    <dimen name="list_item_article_subtitle_padding_left">16dp</dimen>
+    <dimen name="list_item_article_subtitle_padding_right">16dp</dimen>
+    <dimen name="list_item_article_title_padding_bottom">4dp</dimen>
+    <dimen name="list_item_article_title_padding_left">16dp</dimen>
+    <dimen name="list_item_article_title_padding_right">16dp</dimen>
+    <dimen name="list_item_article_title_padding_top">16dp</dimen>
     <dimen name="list_side_margin">4dp</dimen>
-    <dimen name="list_toolbar_side_margin">0dp</dimen>
+    <dimen name="list_toolbar_side_margin">16dp</dimen>
+    <dimen name="max_width_linear_layout_elevation">2dp</dimen>
+    <dimen name="net_image_view_layout_height">100dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
+    <dimen name="photo_background_layout_height">112dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item format="float" name="detail_body_line_spacing_multiplier" type="fraction">1.25</item>
     <item name="action_bar_activity_content" type="id"/>
@@ -1565,8 +1585,10 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="my_drawable">@color/theme_primary</item>
+    <style name="Theme.Bacon" parent="Theme.Bacon.Common">
+
+    </style>
+    <style name="Theme.Bacon.Common" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
     </style>
     <style name="Theme.Bacon.Detail" parent="Theme.Bacon">
@@ -1750,5 +1772,187 @@
         <item name="errorTextAppearance">@style/TextAppearance.Design.Error</item>
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+    </style>
+    <style name="article_body" parent="article_body_base">
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+        <item name="android:textColorLink">@color/theme_accent</item>
+    </style>
+    <style name="article_body_base" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:layout_marginRight">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:paddingBottom">@dimen/detail_body_bottom_margin</item>
+        <item name="android:textSize">@dimen/detail_body_text_size</item>
+    </style>
+    <style name="article_detail_viewpager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="article_list_recycler_view" parent="article_list_recycler_view_base">
+        <item name="android:paddingTop">@dimen/article_list_recycler_view_padding_top</item>
+    </style>
+    <style name="article_list_recycler_view_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:paddingBottom">@dimen/article_list_recycler_view_base_bottom</item>
+        <item name="android:paddingLeft">@dimen/list_side_margin</item>
+        <item name="android:paddingRight">@dimen/list_side_margin</item>
+    </style>
+    <style name="article_list_swipe_refresh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="article_title" parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/detail_metabar_title_bottom_padding</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:lineSpacingMultiplier">0.9</item>
+    </style>
+    <style name="byline" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#8fff</item>
+    </style>
+    <style name="cardview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_margin</item>
+        <item name="android:layout_marginRight">@dimen/cardview_margin</item>
+        <item name="android:layout_marginTop">@dimen/cardview_margin</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_margin</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+    </style>
+    <style name="cardview_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="collapsing_toolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_marginLeft">@dimen/list_toolbar_side_margin</item>
+        <item name="android:layout_marginRight">@dimen/list_toolbar_side_margin</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+    <style name="detail_image_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/detail_image_view_layout_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="detail_inner_frame_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/photo_placeholder</item>
+    </style>
+    <style name="detail_outer_frame_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="draw_insets">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="frame_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/frame_layout_layout_height</item>
+        <item name="android:background">?colorPrimaryDark</item>
+    </style>
+    <style name="imageView" parent="imageView_base">
+
+    </style>
+    <style name="imageView_base">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/logo</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+    <style name="image_button_fab" parent="image_button_fab_base">
+    </style>
+    <style name="image_button_fab_base">
+        <item name="android:background">@drawable/add_fab_background</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_marginRight">@dimen/fab_margin</item>
+        <item name="android:layout_marginBottom">@dimen/fab_margin</item>
+        <item name="android:layout_width">@dimen/image_button_fab_layout_width</item>
+        <item name="android:layout_height">@dimen/image_button_fab_layout_height</item>
+        <item name="android:src">@drawable/ic_share</item>
+        <item name="android:contentDescription">@string/action_share</item>
+    </style>
+    <style name="list_item_article_subtitle" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/list_item_article_subtitle_padding_left</item>
+        <item name="android:paddingRight">@dimen/list_item_article_subtitle_padding_right</item>
+        <item name="android:paddingBottom">@dimen/list_item_article_subtitle_padding_bottom</item>
+        <item name="android:textColor">@color/theme_primary_dark</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="list_item_article_title" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/list_item_article_title_padding_left</item>
+        <item name="android:paddingTop">@dimen/list_item_article_title_padding_top</item>
+        <item name="android:paddingRight">@dimen/list_item_article_title_padding_right</item>
+        <item name="android:paddingBottom">@dimen/list_item_article_title_padding_bottom</item>
+        <item name="android:textColor">@color/theme_primary_dark</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">4</item>
+    </style>
+    <style name="max_width_linear_layout" parent="max_width_linear_layout_base">
+
+    </style>
+    <style name="max_width_linear_layout_base">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:maxWidth">@dimen/detail_card_max_width</item>
+        <item name="android:background">#fff</item>
+        <item name="android:layout_marginTop">@dimen/detail_photo_height</item>
+    </style>
+    <style name="meta_bar_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#333</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:paddingRight">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:paddingTop">@dimen/detail_metabar_vert_padding</item>
+        <item name="android:paddingBottom">@dimen/detail_metabar_vert_padding</item>
+        <item name="android:layout_marginBottom">@dimen/detail_metabar_vert_padding</item>
+    </style>
+    <style name="net_image_view">
+        <item name="android:layout_height">@dimen/net_image_view_layout_height</item>
+        <item name="android:background">@color/photo_placeholder</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="observable_scroll_view" parent="observable_scroll_view_base">
+
+    </style>
+    <style name="observable_scroll_view_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="outer_frame_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="photo_background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/photo_background_layout_height</item>
+        <item name="android:background">@drawable/photo_background_protection</item>
     </style>
 </resources>
