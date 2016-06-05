@@ -27,6 +27,7 @@
 
             <ImageView
                 style="@style/imageView"
+                android:contentDescription="@string/app_name"
                 app:layout_collapseMode="parallax"
                 app:layout_collapseParallaxMultiplier="0.5" />
 
